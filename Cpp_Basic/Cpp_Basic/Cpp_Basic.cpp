@@ -2,10 +2,16 @@
 //
 
 #include <iostream>
+#include "Cpp_Basic.h"
+#include "io.h"
+
+#define PLUS (2+3) 
 
 int main()
 {
-    std::cout << "Hello SeSac!\n";
+    cout << "Hello SeSac!\n";
+
+    VariableTypeCharacter();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

@@ -1,2 +1,147 @@
-﻿  Cpp_Basic.cpp
-  Cpp_Basic.vcxproj -> C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\x64\Debug\Cpp_Basic.exe
+﻿  Ch03_Statement.cpp
+C:\Users\user\Downloads\CPPBasic\Ch03_Statement.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+C:\Users\user\Downloads\CPPBasic\io.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+C:\Users\user\Downloads\CPPBasic\Ch03_Statement.cpp(20,13): error C2001: newline in constant
+C:\Users\user\Downloads\CPPBasic\Ch03_Statement.cpp(21,3): error C2143: syntax error: missing ';' before '}'
+C:\Users\user\Downloads\CPPBasic\Ch03_Statement.cpp(27,13): error C2001: newline in constant
+C:\Users\user\Downloads\CPPBasic\Ch03_Statement.cpp(28,3): error C2143: syntax error: missing ';' before '}'
+C:\Users\user\Downloads\CPPBasic\Ch03_Statement.cpp(31,13): error C2001: newline in constant
+C:\Users\user\Downloads\CPPBasic\Ch03_Statement.cpp(32,3): error C2143: syntax error: missing ';' before '}'
+C:\Users\user\Downloads\CPPBasic\Ch03_Statement.cpp(35,13): error C2001: newline in constant
+C:\Users\user\Downloads\CPPBasic\Ch03_Statement.cpp(36,3): error C2143: syntax error: missing ';' before '}'
+C:\Users\user\Downloads\CPPBasic\Ch03_Statement.cpp(52,13): error C2001: newline in constant
+C:\Users\user\Downloads\CPPBasic\Ch03_Statement.cpp(53,3): error C2143: syntax error: missing ';' before '}'
+C:\Users\user\Downloads\CPPBasic\Ch03_Statement.cpp(74,13): error C2001: newline in constant
+C:\Users\user\Downloads\CPPBasic\Ch03_Statement.cpp(75,3): error C2143: syntax error: missing ';' before '}'
+C:\Users\user\Downloads\CPPBasic\Ch03_Statement.cpp(88,13): error C2001: newline in constant
+C:\Users\user\Downloads\CPPBasic\Ch03_Statement.cpp(89,3): error C2143: syntax error: missing ';' before '}'
+C:\Users\user\Downloads\CPPBasic\Ch03_Statement.cpp(111,13): error C2001: newline in constant
+C:\Users\user\Downloads\CPPBasic\Ch03_Statement.cpp(112,5): error C2143: syntax error: missing ';' before 'break'
+C:\Users\user\Downloads\CPPBasic\Ch03_Statement.cpp(129,13): error C2001: newline in constant
+C:\Users\user\Downloads\CPPBasic\Ch03_Statement.cpp(130,5): error C2143: syntax error: missing ';' before 'if'
+C:\Users\user\Downloads\CPPBasic\Ch03_Statement.cpp(207,15): error C2001: newline in constant
+C:\Users\user\Downloads\CPPBasic\Ch03_Statement.cpp(208,7): error C2146: syntax error: missing ';' before identifier 'cin'
+  Ch04-1_Example.cpp
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+C:\Users\user\Downloads\CPPBasic\io.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(69,3): error C2144: syntax error: 'int' should be preceded by ';'
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(71,8): error C2143: syntax error: missing ';' before '<<'
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(71,8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(71,8): error C2059: syntax error: '<<'
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(72,7): error C2143: syntax error: missing ';' before '>>'
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(72,7): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(72,7): error C2059: syntax error: '>>'
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(73,8): error C2143: syntax error: missing ';' before '<<'
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(73,8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(73,3): error C2086: 'int cout': redefinition
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(71,3): message : see declaration of 'cout'
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(73,8): error C2059: syntax error: '<<'
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(74,7): error C2143: syntax error: missing ';' before '>>'
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(74,7): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(74,3): error C2086: 'int cin': redefinition
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(72,3): message : see declaration of 'cin'
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(74,7): error C2059: syntax error: '>>'
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(81,3): error C2059: syntax error: 'if'
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(82,3): error C2143: syntax error: missing ';' before '{'
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(82,3): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(83,13): error C2001: newline in constant
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(85,3): error C2059: syntax error: 'else'
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(86,3): error C2143: syntax error: missing ';' before '{'
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(86,3): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(87,13): error C2001: newline in constant
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(89,3): error C2059: syntax error: 'else'
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(90,3): error C2143: syntax error: missing ';' before '{'
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(90,3): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(91,13): error C2001: newline in constant
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(93,3): error C2059: syntax error: 'else'
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(94,3): error C2143: syntax error: missing ';' before '{'
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(94,3): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(95,13): error C2001: newline in constant
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(97,3): error C2059: syntax error: 'else'
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(97,7): error C2143: syntax error: missing ';' before '{'
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(97,7): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(100,1): error C2059: syntax error: '}'
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(100,1): error C2143: syntax error: missing ';' before '}'
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(103,1): error C2143: syntax error: missing ';' before '{'
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(103,1): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(127,3): error C2872: 'cout': ambiguous symbol
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(71,3): message : could be 'int cout'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\iostream(40,75): message : or       'std::ostream std::cout'
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(127,8): error C2297: '<<': not valid as right operand has type 'const char [33]'
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(127,8): warning C4552: '<<': result of expression not used
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(128,3): error C2872: 'cin': ambiguous symbol
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(72,3): message : could be 'int cin'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\iostream(39,75): message : or       'std::istream std::cin'
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(128,7): warning C4552: '>>': result of expression not used
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(129,3): error C2872: 'cout': ambiguous symbol
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(71,3): message : could be 'int cout'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\iostream(40,75): message : or       'std::ostream std::cout'
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(129,8): error C2297: '<<': not valid as right operand has type 'const char [32]'
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(129,8): warning C4552: '<<': result of expression not used
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(130,3): error C2872: 'cin': ambiguous symbol
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(72,3): message : could be 'int cin'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\iostream(39,75): message : or       'std::istream std::cin'
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(130,7): warning C4552: '>>': result of expression not used
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(134,5): error C2872: 'cout': ambiguous symbol
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(71,3): message : could be 'int cout'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\iostream(40,75): message : or       'std::ostream std::cout'
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(134,10): error C2297: '<<': not valid as right operand has type 'const char [2]'
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(134,20): error C2563: mismatch in formal parameter list
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(134,20): error C2568: '<<': unable to resolve function overload
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(134,20): message : could be 'std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)'
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(138,5): error C2872: 'cout': ambiguous symbol
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(71,3): message : could be 'int cout'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\iostream(40,75): message : or       'std::ostream std::cout'
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(138,10): error C2297: '<<': not valid as right operand has type 'const char [2]'
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(138,20): error C2563: mismatch in formal parameter list
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(138,20): error C2568: '<<': unable to resolve function overload
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(138,20): message : could be 'std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)'
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(142,5): error C2872: 'cout': ambiguous symbol
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(71,3): message : could be 'int cout'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\iostream(40,75): message : or       'std::ostream std::cout'
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(142,10): error C2297: '<<': not valid as right operand has type 'const char [3]'
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(142,21): error C2563: mismatch in formal parameter list
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(142,21): error C2568: '<<': unable to resolve function overload
+C:\Users\user\Downloads\CPPBasic\Ch04-1_Example.cpp(142,21): message : could be 'std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)'
+  Ch04-2_Example.cpp
+C:\Users\user\Downloads\CPPBasic\Ch04-2_Example.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+C:\Users\user\Downloads\CPPBasic\io.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+C:\Users\user\Downloads\CPPBasic\Ch04-2_Example.cpp(7,11): error C2001: newline in constant
+C:\Users\user\Downloads\CPPBasic\Ch04-2_Example.cpp(8,3): error C2146: syntax error: missing ';' before identifier 'cin'
+  Ch05-1_Example.cpp
+C:\Users\user\Downloads\CPPBasic\Ch05-1_Example.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+C:\Users\user\Downloads\CPPBasic\io.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+C:\Users\user\Downloads\CPPBasic\Ch05-1_Example.cpp(9,14): error C2131: expression did not evaluate to a constant
+C:\Users\user\Downloads\CPPBasic\Ch05-1_Example.cpp(9,14): message : failure was caused by a read of a variable outside its lifetime
+C:\Users\user\Downloads\CPPBasic\Ch05-1_Example.cpp(9,14): message : see usage of 'Counter'
+C:\Users\user\Downloads\CPPBasic\Ch05-1_Example.cpp(13,11): warning C4552: '>>': result of expression not used
+C:\Users\user\Downloads\CPPBasic\Ch05-1_Example.cpp(42,14): error C2131: expression did not evaluate to a constant
+C:\Users\user\Downloads\CPPBasic\Ch05-1_Example.cpp(42,14): message : failure was caused by a read of a variable outside its lifetime
+C:\Users\user\Downloads\CPPBasic\Ch05-1_Example.cpp(42,14): message : see usage of 'Counter'
+C:\Users\user\Downloads\CPPBasic\Ch05-1_Example.cpp(46,11): warning C4552: '>>': result of expression not used
+C:\Users\user\Downloads\CPPBasic\Ch05-1_Example.cpp(53,27): warning C4552: '<<': result of expression not used
+C:\Users\user\Downloads\CPPBasic\Ch05-1_Example.cpp(69,19): error C2131: expression did not evaluate to a constant
+C:\Users\user\Downloads\CPPBasic\Ch05-1_Example.cpp(69,19): message : failure was caused by a read of a variable outside its lifetime
+C:\Users\user\Downloads\CPPBasic\Ch05-1_Example.cpp(69,19): message : see usage of 'Counter'
+C:\Users\user\Downloads\CPPBasic\Ch05-1_Example.cpp(72,22): error C3863: array type 'int [Counter]' is not assignable
+C:\Users\user\Downloads\CPPBasic\Ch05-1_Example.cpp(76,26): error C2131: expression did not evaluate to a constant
+C:\Users\user\Downloads\CPPBasic\Ch05-1_Example.cpp(76,18): message : failure was caused by a read of a variable outside its lifetime
+C:\Users\user\Downloads\CPPBasic\Ch05-1_Example.cpp(76,18): message : see usage of 'Counter'
+C:\Users\user\Downloads\CPPBasic\Ch05-1_Example.cpp(79,11): warning C4552: '>>': result of expression not used
+C:\Users\user\Downloads\CPPBasic\Ch05-1_Example.cpp(83,14): error C2131: expression did not evaluate to a constant
+C:\Users\user\Downloads\CPPBasic\Ch05-1_Example.cpp(83,14): message : failure was caused by a read of a variable outside its lifetime
+C:\Users\user\Downloads\CPPBasic\Ch05-1_Example.cpp(83,14): message : see usage of 'Counter'
+C:\Users\user\Downloads\CPPBasic\Ch05-1_Example.cpp(86,16): error C3863: array type 'bool [Counter]' is not assignable
+C:\Users\user\Downloads\CPPBasic\Ch05-1_Example.cpp(96,20): error C3863: array type 'bool [Counter]' is not assignable
+  Ch06-1_Example.cpp
+C:\Users\user\Downloads\CPPBasic\Ch06-1_Example.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+C:\Users\user\Downloads\CPPBasic\io.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+C:\Users\user\Downloads\CPPBasic\Ch06-1_Example.cpp(29,13): error C2131: expression did not evaluate to a constant
+C:\Users\user\Downloads\CPPBasic\Ch06-1_Example.cpp(29,13): message : failure was caused by a read of a variable outside its lifetime
+C:\Users\user\Downloads\CPPBasic\Ch06-1_Example.cpp(29,13): message : see usage of 'AlphaSize'
+C:\Users\user\Downloads\CPPBasic\Ch06-1_Example.cpp(32,16): error C3863: array type 'int [AlphaSize]' is not assignable
+C:\Users\user\Downloads\CPPBasic\Ch06-1_Example.cpp(43,24): error C3863: array type 'int [AlphaSize]' is not assignable
+C:\Users\user\Downloads\CPPBasic\Ch06-1_Example.cpp(51,24): warning C4552: '<<': result of expression not used
+  Ch07_Structure.cpp
+C:\Users\user\Downloads\CPPBasic\io.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+  Generating Code...
