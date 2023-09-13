@@ -24,16 +24,25 @@ void PointerDefine() {
 
 	cout << endl;
 
-	int Array[3] = { 1,2,3 };
+	int Array[3] = { 1,5,9 };
 	int* pArray = Array; // Array 자체가 주소이기 때문에 &를 넣으면 안 됨 / Array : 첫번째 배열의 주소
 
-	cout << Array << endl;
-	cout << pArray << endl;
+	cout << "Array : " << Array << endl;
+	cout << "pArray : " << pArray << endl;
 
-	cout << Array[0] << endl;
-	cout << pArray[0] << endl; 
+	cout << "Array[1] : " << Array[1] << endl;
+	cout << "pArray[1] : " << pArray[1] << endl;
 
-	cout << *pArray << endl;
-	cout << *Array << endl;
+	cout << "*pArray : " << *pArray << endl;
+	cout << "*Array : " << *Array << endl;
 	
+	cout << "Array + 1 : " << Array + 1 << endl;
+	cout << "pArray +1 : " << pArray + 1 << endl;
+	
+	cout << "*Array + 1 : " << *Array + 1 << endl; // 숫자끼리 더한 것
+	cout << "*pArray + 1: " << *pArray + 1 << endl; // 숫자끼리 더한 것
+
+	cout << "*(Array + 1) : " << *(Array + 1) << endl; // 주소값에 1을 더하여, 다음 배열의 값을 불러온 것
+	cout << "*(Array + 1 ): " << *(pArray + 1) << endl; // 주소값에 1을 더하여, 다음 배열의 값을 불러온 것
+
 }
