@@ -1,7 +1,6 @@
-#pragma once
 void OvenTime();
 void MyOvenTime();
-void Quadrant();
+void Quadrant(); 
 void LeapYear();
 void SizeComparison();
 void InoutOutput();

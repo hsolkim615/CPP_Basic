@@ -2,68 +2,68 @@
 
 void Variable()
 {
-	int Value1 = 100;
-	Value1 = 200;
-
-	const int Value2 = 50;
-	//Value2 = 100;  
+  int Value1 = 100;
+  Value1 = 200;
+  
+  const int Value2 = 50;
+  //Value2 = 100;  
 }
 
 void VariableTypeNumber()
 {
-	// Á¤¼öÇü µ¥ÀÌÅÍ Á¾·ù
-	short Num1 = 10; // 2^16
-	int Num2 = 20; // 2^32 // integer 
-	long Num3 = 30; // 2^64
-
-	//  cout << Num1 << Num2 << Num3 << endl;
-
-	// ½Ç¼öÇü µ¥ÀÌÅÍ Á¾·ù
-	float Num4 = 1.23;
-	float Num41 = 1.345f;
-	double Num5 = 1.34567;
-
-	cout << Num4 << Num5 << endl;
+  // ì •ìˆ˜í˜• ë°ì´í„° ì¢…ë¥˜
+  short Num1 = 10; // 2^16
+  int Num2 = 20; // 2^32 // integer 
+  long Num3 = 30; // 2^64
+  
+  //  cout << Num1 << Num2 << Num3 << endl;
+  
+  // ì‹¤ìˆ˜í˜• ë°ì´í„° ì¢…ë¥˜
+  float Num4 = 1.23;
+  float Num41 = 1.345f;
+  double Num5 = 1.34567;
+  
+  cout << Num4 << Num5 << endl;
 }
 
 void VariableTypeCharacter()
 {
-	// ¹®ÀÚÇü µ¥ÀÌÅÍ
-	// ¹®ÀÚ 1°³ : ''. ¹®ÀÚ ¿©·¯°³ : ""
-	// char Å¸ÀÔÀº ¹®ÀÚ 1°³¸¸ ÀúÀå °¡´É 
-	char Text1; // char : character
-	char Text2;
-
-	Text1 = 'A';
-	Text2 = 'B';
-
-	cout << Text1 << endl << Text2 << endl;
+  // ë¬¸ìí˜• ë°ì´í„°
+  // ë¬¸ì 1ê°œ : ''. ë¬¸ì ì—¬ëŸ¬ê°œ : ""
+  // char íƒ€ì…ì€ ë¬¸ì 1ê°œë§Œ ì €ì¥ ê°€ëŠ¥ 
+  char Text1; // char : character
+  char Text2;
+  
+  Text1 = 'A';
+  Text2 = 'B';
+  
+  cout << Text1 << endl << Text2 << endl;  
 }
 
 void VariableTypeBoll()
 {
-	bool condition;
-
-	condition = true;
-	cout << condition << endl;
-	condition = false;
-	cout << condition << endl;
-
-	condition = 1; // true
-	condition = 0; // false
-
-	// 0 => false, ±×¿Ü Á¤¼ö => true
-	condition = 10; // ¹İµå½Ã 1, 0ÀÌ ¾Æ´Ñ ÀÌ¿ÜÀÇ Á¤¼öµµ »ç¿ë °¡´É
-	cout << condition << endl;
-
-	condition = -5;
-	cout << condition << endl;
+  bool condition;
+  
+  condition = true;
+  cout << condition << endl;
+  condition = false;
+  cout << condition << endl;
+  
+  condition = 1; // true
+  condition = 0; // false
+  
+  // 0 => false, ê·¸ì™¸ ì •ìˆ˜ => true
+  condition = 10; // ë°˜ë“œì‹œ 1, 0ì´ ì•„ë‹Œ ì´ì™¸ì˜ ì •ìˆ˜ë„ ì‚¬ìš© ê°€ëŠ¥
+  cout << condition << endl;
+  
+  condition = -5;
+  cout << condition << endl;
 }
 
 void InputOtput()
 {
-	int number;
-	// ¿ÜºÎ ÀÔ·Â
-	cin >> number;
-	cout << number << endl;
+  int number;
+  // ì™¸ë¶€ ì…ë ¥
+  cin >> number;
+  cout << number << endl;
 }
