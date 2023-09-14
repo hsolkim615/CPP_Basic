@@ -60,7 +60,7 @@ void VariableTypeBoll()
   cout << condition << endl;
 }
 
-void InputOtput()
+void InputOutput()
 {
   int number;
   // 외부 입력

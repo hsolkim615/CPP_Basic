@@ -1,9 +1,8 @@
 void OvenTime();
-void MyOvenTime();
 void Quadrant(); 
 void LeapYear();
 void SizeComparison();
-void InoutOutput();
+void InputOutput();
 void Variable();
 void VariableTypeNumber();
 void VariableTypeCharacter();
@@ -39,3 +38,6 @@ void AlphaNumber();
 void Enum();
 void TwoDimension();
 void PointerDefine();
+void DynamicVariable();
+void BallInsert();
+void BallSwap();

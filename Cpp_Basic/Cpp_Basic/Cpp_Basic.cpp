@@ -11,7 +11,7 @@ int main()
 {
     cout << "Hello SeSac!\n";
 
-    PointerDefine();
+    DynamicVariable();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

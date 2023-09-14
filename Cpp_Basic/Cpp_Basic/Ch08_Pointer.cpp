@@ -10,7 +10,7 @@ void PointerDefine() {
 	int* pa = &a; // 포인터 변수에 주소값 대입 // &를 통한 주소값을 입력받기 위해서는 int*가 필요한 것
 
 	cout << "pa : " << pa << endl; // pa는 a의 주소값을 입력받았기에, 주소값을 출력
-	cout << "*pa : " << * pa << endl; // 저장된 주소의 위치에 있는 변수의 값을 출력
+	cout << "*pa : " << *pa << endl; // 저장된 주소의 위치에 있는 변수의 값을 출력
 
 	cout << "pa + 1 : " << pa + 1 << endl;
 	cout << "*pa + 1 : " << *pa + 1 << endl;

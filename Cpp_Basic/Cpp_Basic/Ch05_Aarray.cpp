@@ -1,4 +1,4 @@
-#include "io.h"
+﻿#include "io.h"
 
 void DefineArray()
 {
@@ -25,7 +25,7 @@ void DefineArray()
   
   cout << endl;
 
-  // 출력 =? 접근, Access
+  // 출력 => 접근, Access
   for(int i=0; i<3; i++)
     {
       cout << a[i] << " : ";
