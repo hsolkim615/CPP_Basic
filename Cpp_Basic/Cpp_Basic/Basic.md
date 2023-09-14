@@ -57,7 +57,7 @@ Red : #FF0000
 3. 문자 표현 : UTF-8, EUC-KR
 UTF-8 : 2byte 여러 언어 문자를 표현
 
-연산자와 연산
+# 연산자와 연산
 - 값과 값 사이에 위치하는 기호 : 연산자
 
 대입연산
@@ -189,3 +189,61 @@ Function(10); <= 10 : arguement
 
   - 객체 / 인스턴스
     - 클래스를 통해서 생성된 실체
+
+### 선언
+
+#### 구조체 선언
+
+```
+struct Car
+{
+  char name[30];
+  char nodel[30];
+  int year;
+  int TireSize;
+  char Color[30];
+}
+
+void Drive(char name[30]) {}
+void Break(char name[30]) {}
+void Parking(char name[30]) {}
+void Rear(char name[30]) {}
+
+Car BMW = { "X7 series", "xDrive40i", 2023, 23, "Black" }
+
+Car Jeep = { "Rubicon", "Moutain", 2021, 26, "Blue" }
+
+cuot << BMW.year << endl; 
+
+cout << Jeep. year << endl;
+
+Drive("X7");
+
+Drive("Rubicon")
+```
+
+#### 클래스 선언
+
+```
+class Car 
+{
+  char name[30];
+  char nodel[30];
+  int year;
+  int TireSize;
+  char Color[30];
+
+  void Drive() {}
+  void Break() {}
+  void Parking() {}
+  void Rear() {}
+}
+
+Car Sonata;
+cout << Sonata.year << endl;
+Sonata.Drive();
+
+Car Ray;
+cout << Ray.year << endl; 
+Ray.Drive();
+```
