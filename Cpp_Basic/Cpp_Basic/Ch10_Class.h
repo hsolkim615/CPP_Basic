@@ -12,4 +12,4 @@ public:
 	}
 	void DriveVelocity(); // 함수원형 선언
 	void DriveTime();
-};
+};	
