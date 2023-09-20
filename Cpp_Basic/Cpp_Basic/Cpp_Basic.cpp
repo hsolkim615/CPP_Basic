@@ -110,6 +110,14 @@ int main()
     PureVirtualChild PureChild;
     PureChild.Print();
     PureChild.PrintClass();
+
+    cout << "---------------------------" << endl;
+
+    cout << SumNumber(3, 2) << endl;
+    cout << SumNumber(3.231f, 5.645f) << endl;
+
+    cout << SumType(10, 20) << endl;
+    cout << SumType(10.567, 20.321) << endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
