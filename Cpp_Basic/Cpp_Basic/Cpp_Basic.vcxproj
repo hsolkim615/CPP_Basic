@@ -130,6 +130,7 @@
     <ClCompile Include="Animal.cpp" />
     <ClCompile Include="Arithmatic.cpp" />
     <ClCompile Include="Atv.cpp" />
+    <ClCompile Include="Auto.cpp" />
     <ClCompile Include="Bike.cpp" />
     <ClCompile Include="Ch01_Variable.cpp" />
     <ClCompile Include="Ch02_Operation.cpp" />
@@ -144,6 +145,11 @@
     <ClCompile Include="Ch07_Structure.cpp" />
     <ClCompile Include="Ch08_Pointer.cpp" />
     <ClCompile Include="Ch09_Dynamic.cpp" />
+    <ClCompile Include="Ch11_ArrayClass.cpp" />
+    <ClCompile Include="Ch12_StringClass.cpp" />
+    <ClCompile Include="Ch13_Vector.cpp" />
+    <ClCompile Include="Ch14_VirtualChild.cpp" />
+    <ClCompile Include="Ch14_VirtualParent.cpp" />
     <ClCompile Include="Vehicle.cpp" />
     <ClCompile Include="Ch10_Class.cpp" />
     <ClCompile Include="Cpp_Basic.cpp" />
@@ -156,6 +162,8 @@
     <ClInclude Include="Auto.h" />
     <ClInclude Include="Bike.h" />
     <ClInclude Include="Ch10_Class.h" />
+    <ClInclude Include="Ch14_VirtualChild.h" />
+    <ClInclude Include="Ch14_VirtualParent.h" />
     <ClInclude Include="Cpp_Basic.h" />
     <ClInclude Include="io.h" />
     <ClInclude Include="Vehecle.h" />

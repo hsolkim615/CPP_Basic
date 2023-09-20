@@ -41,3 +41,7 @@ void PointerDefine();
 void DynamicVariable();
 void BallInsert();
 void BallSwap();
+
+void ArrayClass();
+void StringClass();
+void VectorClass();

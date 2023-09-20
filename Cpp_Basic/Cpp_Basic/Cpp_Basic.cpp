@@ -11,6 +11,8 @@
 #include "Atv.h"
 #include "Arithmatic.h"
 #include "Auto.h"
+#include "Ch14_VirtualParent.h"
+#include "Ch14_VirtualChild.h"
 
 #define PLUS (2+3) 
 
@@ -28,6 +30,8 @@ int main()
     Ray.SetYear(2021);
 
     cout << Ray.GetYear() << endl;
+
+    Vehicle Sonata;
 
     // class 동적 선언(생성)
     Animal* Dog = new Animal;
@@ -59,9 +63,43 @@ int main()
 
     // 생성자가 명시적으로 선언 
     // 자식 클래스 선언 : 명시적 선언
-    // Auto Mobile();
 
-    // Mobile().PrintPrice();
+    cout << "---------------------------" << endl;
+    Auto Mobile();
+
+    Auto Aavnte(2024, 10000000);
+
+    cout << "---------------------------" << endl;
+    // ArrayClass();
+
+    // StringClass();
+    
+    // VectorClass();
+
+    cout << "---------------------------" << endl;
+
+    VirtualParent* Parent = new VirtualParent;
+    VirtualChild* Child = new VirtualChild;
+
+    Parent->PrintClass();
+
+    Child->PrintClass(); // Overriding 작동 
+
+    Parent = Child; // 함수는 정적선언 되어 있기 때문에 대입이 되지 않음
+
+    Parent->PrintClass();
+
+    
+    VirtualParent2* Parent2 = new VirtualParent2;
+    VirtualChild2* Child2 = new VirtualChild2;
+
+    Parent2->PrintClass();
+
+    Child2->PrintClass(); // Overriding 작동 
+
+    Parent2 = Child2; // 함수도 바뀜
+
+    Parent2->PrintClass();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
