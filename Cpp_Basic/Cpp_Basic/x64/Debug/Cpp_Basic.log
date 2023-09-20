@@ -1,4 +1,7 @@
-﻿  Cpp_Basic.cpp
+﻿  Ch15_PureVirtuelChild.cpp
+  Ch15_PureVirtuelParent.cpp
+  Cpp_Basic.cpp
 C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\Cpp_Basic\io.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
-C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\Cpp_Basic\Cpp_Basic.cpp(68,10): warning C4930: 'Auto Mobile(void)': prototyped function not called (was a variable definition intended?)
+C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\Cpp_Basic\Cpp_Basic.cpp(70,10): warning C4930: 'Auto Mobile(void)': prototyped function not called (was a variable definition intended?)
+  Generating Code...
   Cpp_Basic.vcxproj -> C:\Users\user\Cpp_PL\CPP_Basic\Cpp_Basic\x64\Debug\Cpp_Basic.exe

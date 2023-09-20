@@ -13,6 +13,8 @@
 #include "Auto.h"
 #include "Ch14_VirtualParent.h"
 #include "Ch14_VirtualChild.h"
+#include "Ch15_PureVirtuelParent.h"
+#include "Ch15_PureVirtuelChild.h"
 
 #define PLUS (2+3) 
 
@@ -100,6 +102,14 @@ int main()
     Parent2 = Child2; // 함수도 바뀜
 
     Parent2->PrintClass();
+
+    cout << "---------------------------" << endl;
+
+    // PureVirtualParent PureParent; => 추상클래스는 단독으로 생성할 수 없음
+    // 추상 클래스를 상속받는 자식 클래스는 순수 가사함수를 재정의 해야함
+    PureVirtualChild PureChild;
+    PureChild.Print();
+    PureChild.PrintClass();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
