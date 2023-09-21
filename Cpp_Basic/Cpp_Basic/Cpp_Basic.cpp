@@ -20,7 +20,7 @@
 
 int main()
 {
-    cout << "Hello SeSac!\n";
+/*    cout << "Hello SeSac!\n";
 
     // class 정적 선언
     Vehicle Ray(2023, 12000000);
@@ -118,6 +118,14 @@ int main()
 
     cout << SumType(10, 20) << endl;
     cout << SumType(10.567, 20.321) << endl;
+*/
+
+    DiceGame(2,2,2,2);
+    DiceGame(4,1,4,1);
+    DiceGame(6,3,3,6);
+    DiceGame(2,5,2,6);
+    DiceGame(6,4,2,5);
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

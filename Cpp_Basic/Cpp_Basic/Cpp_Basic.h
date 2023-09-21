@@ -53,3 +53,5 @@ template <typename T> // T가 int도 되고 float도 되는 것. 변수처럼 동작한다. 'T'�
 T SumType(T a, T b) {
 	return (a + b);
 } // 템플릿 부분 전체가 선언부분에 기능까지 들어가야 한다. 
+
+void DiceGame(int a, int b, int c, int d);
