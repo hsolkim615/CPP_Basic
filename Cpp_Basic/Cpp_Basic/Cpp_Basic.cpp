@@ -118,7 +118,7 @@ int main()
 
     cout << SumType(10, 20) << endl;
     cout << SumType(10.567, 20.321) << endl;
-*/
+*/  
 
     DiceGame(2,2,2,2);
     DiceGame(4,1,4,1);
